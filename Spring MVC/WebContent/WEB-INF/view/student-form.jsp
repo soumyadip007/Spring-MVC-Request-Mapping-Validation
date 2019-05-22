@@ -17,9 +17,10 @@
   <br>
   <form:select path="country">
   
-  <form:option value="india" label="India"/>
-  <form:option value="australia" label="Australia"/>
-  <form:option value="england" label="England"/>
+  <form:option value="india" label="India JSP"/>
+  <form:option value="australia" label="Australia JSP"/>
+  <form:option value="england" label="England JSP"/>
+  <form:options items="${student.countryOptions}"/>
   
   </form:select>
   
