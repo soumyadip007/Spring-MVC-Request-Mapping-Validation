@@ -14,5 +14,11 @@
 
 <h2>Programming Lang. : ${student.lang}</h2>
 
+
+<h2>Operating System : ${student.os}</h2>
+
+
+
+
 </body>
 </html>

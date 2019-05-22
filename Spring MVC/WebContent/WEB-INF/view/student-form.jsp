@@ -15,22 +15,30 @@
   
    Last Name: <form:input type="text" path="lastname" placeholder="Enter name"/>
   <br>
-  <form:select path="country">
   
+  
+  <form:select path="country">
   <form:option value="india" label="India JSP"/>
   <form:option value="australia" label="Australia JSP"/>
   <form:option value="england" label="England JSP"/>
   <form:options items="${student.countryOptions}"/>
-  
   </form:select>
   <br>
+  
+  
   Favourite Language: 
    C <form:radiobutton path="lang" value="C"/>
   Java <form:radiobutton path="lang" value="Java"/>
   JavaScript <form:radiobutton path="lang" value="Javascript"/>
+<br>
+
+
+Favourite OS: 
+  Windows <form:checkbox path="os" value="Windows"/>
+  Linux <form:checkbox path="os" value="Linux"/>
+  Mac <form:checkbox path="os" value="Mac"/>
   <input type="submit" value="Submit"/>
 </form:form>
 <br>
-
 </body>
 </html>

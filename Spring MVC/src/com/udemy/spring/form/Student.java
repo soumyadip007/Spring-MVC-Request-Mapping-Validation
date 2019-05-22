@@ -8,14 +8,9 @@ public class Student {
 	public String lastname;
 	public String country;
 	public String lang;
-	public String getLang() {
-		return lang;
-	}
-
-	public void setLang(String lang) {
-		this.lang = lang;
-	}
-
+	public String os;
+	
+	
 	public LinkedHashMap<String,String> countryOptions;
 	
 	public Student()
@@ -59,4 +54,20 @@ public class Student {
 		this.lastname = lastname;
 	}
 	
+	public String getOs() {
+		return os;
+	}
+
+	public void setOs(String os) {
+		this.os = os;
+	}
+
+	public String getLang() {
+		return lang;
+	}
+
+	public void setLang(String lang) {
+		this.lang = lang;
+	}
+
 }
