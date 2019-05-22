@@ -8,16 +8,28 @@
 </head>
 <body>
 
-<form action="processForm" method="get">
+<form action="processForm" method="get" >
 
-  <input type="text" name="firstname">
+  <input type="text" name="firstname" placeholder="Enter name">
   <br>
   <input type="submit" value="Submit">
 </form>
+
+
+
 <br>
 <form action="processFormVersionTwo" method="get">
 
-  <input type="text" name="firstname">
+  <input type="text" name="firstname" placeholder="Convert Upper">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<br>
+<form action="processFormVersionThree" method="get">
+
+  <input type="text" name="firstname"  placeholder="Convert Upper">
   <br>
   <input type="submit" value="Submit">
 </form>
