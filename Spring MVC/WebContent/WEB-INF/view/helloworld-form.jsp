@@ -14,6 +14,12 @@
   <br>
   <input type="submit" value="Submit">
 </form>
+<br>
+<form action="processFormVersionTwo" method="get">
 
+  <input type="text" name="firstname">
+  <br>
+  <input type="submit" value="Submit">
+</form>
 </body>
 </html>

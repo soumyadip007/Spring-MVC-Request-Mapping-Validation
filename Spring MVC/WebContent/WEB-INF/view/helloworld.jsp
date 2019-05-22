@@ -11,8 +11,9 @@
 <h2> Welcome to the World of Spring</h2>
 
 <h3> First Name = ${param.firstname}</h3>
+<br><br>
 
-
+<h3> The Message = ${message}</h3>
 
 </body>
 </html>
