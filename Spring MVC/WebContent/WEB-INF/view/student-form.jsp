@@ -15,6 +15,14 @@
   
    Last Name: <form:input type="text" path="lastname" placeholder="Enter name"/>
   <br>
+  <form:select path="country">
+  
+  <form:option value="india" label="India"/>
+  <form:option value="australia" label="Australia"/>
+  <form:option value="england" label="England"/>
+  
+  </form:select>
+  
   
   <input type="submit" value="Submit"/>
 </form:form>

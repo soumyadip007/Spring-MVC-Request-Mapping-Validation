@@ -4,10 +4,18 @@ public class Student {
 
 	public String firstname;
 	public String lastname;
-	
+	public String country;
 	public Student()
 	{
 		
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		country = country;
 	}
 
 	public String getFirstname() {

@@ -10,5 +10,7 @@
 
 <h2>Student is confirmed : ${student.firstname}  ${student.lastname}</h2>
 
+<h2>Country : ${student.country}</h2>
+
 </body>
 </html>
