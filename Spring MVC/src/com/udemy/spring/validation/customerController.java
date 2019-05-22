@@ -20,24 +20,17 @@ public class customerController {
 	{
 		
 		theModel.addAttribute("customer", new Customer());
-		return "Customer-form";
-		
+		return "customer-form";
 	}
 	
 	@RequestMapping("/processForm")
-	public String ShowForm(@Valid@ModelAttribute("customer") Customer obj,BindingResult theBinding) { //Set method
+	public String ShowForm(@ModelAttribute("customer") Customer obj) { //Set method
 		
 		
 		//log the input data
 		System.out.println(obj.getFirstname());
-		
-		if(theBinding.hasErrors())
-		{
-			return "customer-form";
-		}
-		else {
-			return "customer";
-		}
+		return "customer";
+	
 		
 	}
 	

@@ -21,7 +21,7 @@
   <br>
   
    Last Name: <form:input type="text" path="lastname" placeholder="Enter last name"/>
-   <form:errors path="lastname" cssClass="error"/>
+  
   <br>
   
   <input type="submit" value="Submit"/>
