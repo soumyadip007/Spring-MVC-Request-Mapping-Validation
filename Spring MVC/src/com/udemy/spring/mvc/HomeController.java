@@ -9,7 +9,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String ShowPage()
 	{
-		return null;
+		return "main-menu";
 		
 	}
 }
