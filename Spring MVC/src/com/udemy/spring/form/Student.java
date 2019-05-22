@@ -8,7 +8,7 @@ public class Student {
 	public String lastname;
 	public String country;
 	public String lang;
-	public String os;
+	public String[] os;
 	
 	
 	public LinkedHashMap<String,String> countryOptions;
@@ -20,6 +20,10 @@ public class Student {
 		countryOptions.put("IN","India Map");
 		countryOptions.put("Aus","Australia Map");
 		countryOptions.put("Eng","England Map");
+	}
+
+	public String getLang() {
+		return lang;
 	}
 
 	public String getCountry() {
@@ -54,16 +58,14 @@ public class Student {
 		this.lastname = lastname;
 	}
 	
-	public String getOs() {
+	public String[] getOs() {
 		return os;
 	}
 
-	public void setOs(String os) {
-		this.os = os;
-	}
 
-	public String getLang() {
-		return lang;
+
+	public void setOs(String[] os) {
+		this.os = os;
 	}
 
 	public void setLang(String lang) {
