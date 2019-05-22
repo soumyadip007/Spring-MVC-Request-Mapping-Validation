@@ -7,8 +7,8 @@ public class Customer {
 
 	private String firstname;
 	
-	@NotNull(message="is required")
-	@Size(min=1)
+//	@NotNull()
+	//@Size(min=1, message="is between 1 to 1001000")
 	private String lastname;
 	
 	

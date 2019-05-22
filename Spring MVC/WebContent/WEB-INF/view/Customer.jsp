@@ -8,5 +8,7 @@
 </head>
 <body>
 
+<h2>Customer is confirmed : ${customer.firstname}  ${customer.lastname}</h2>
+
 </body>
 </html>
