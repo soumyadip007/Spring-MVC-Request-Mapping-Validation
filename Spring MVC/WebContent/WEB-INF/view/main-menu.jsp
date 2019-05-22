@@ -9,7 +9,11 @@
 <body>
 <h2> Welcome to Spring</h2>
 <a href="hello/showForm" >Hello World Form</a>
-
+<br>
 <a href="multiple/showForm" >Multiple Form</a>
+<br>
+
+<a href="student/showForm" >Student Form</a>
+<br>
 </body>
 </html>
