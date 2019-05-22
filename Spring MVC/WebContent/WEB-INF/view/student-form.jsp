@@ -8,12 +8,12 @@
 </head>
 <body>
 
-<form:form action="processForm" method="get" >
+<form:form action="processForm" modelAttribute="student" >
 
   First Name: <form:input type="text" path="firstname" placeholder="Enter name"/>
   <br>
   
-   Last Name: <form:input type="text" path="firstname" placeholder="Enter name"/>
+   Last Name: <form:input type="text" path="lastname" placeholder="Enter name"/>
   <br>
   
   <input type="submit" value="Submit"/>

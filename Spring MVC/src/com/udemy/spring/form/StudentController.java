@@ -2,6 +2,7 @@ package com.udemy.spring.form;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -21,6 +22,19 @@ public class StudentController {
 			theModel.addAttribute("student",obj);
 			
 			return "student-form";
+		}
+		
+	//Output ontroller
+		
+
+		@RequestMapping("/processForm")
+		public String ShowForm(@ModelAttribute("student") Student obj) { //Set method
+			
+			
+			//log the input data
+			System.out.println(obj.getFirstname());
+			
+			return "student";
 		}
 		
 }
