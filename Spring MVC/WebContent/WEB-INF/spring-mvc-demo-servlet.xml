@@ -13,6 +13,7 @@
 
 	<!-- Step 3: Add support for component scanning -->
 	<context:component-scan base-package="com.udemy.spring.mvc" />
+	<context:component-scan base-package="com.udemy.spring.form" />
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>
