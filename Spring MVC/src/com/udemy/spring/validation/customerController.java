@@ -29,7 +29,7 @@ public class customerController {
 			//log the input data
 			System.out.println(obj.getFirstname());
 
-			if(theBinding.hasErrors())
+			if(theBinding.hasErrors())   //If gets error
 			{
 				System.out.println("First");
 

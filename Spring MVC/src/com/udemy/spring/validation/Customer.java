@@ -8,7 +8,7 @@ public class Customer {
 	private String firstname;
 	
 	@NotNull()
-	@Size(min=1, message="is between 1 to 1001000")
+	@Size(min=2, message="Size must be > than 2")
 	private String lastname;
 	
 	
