@@ -8,5 +8,8 @@
 </head>
 <body>
 <h2> Welcome to Spring</h2>
+<a href="hello/showForm" >Hello World Form</a>
+
+<a href="multiple/showForm" >Multiple Form</a>
 </body>
 </html>
