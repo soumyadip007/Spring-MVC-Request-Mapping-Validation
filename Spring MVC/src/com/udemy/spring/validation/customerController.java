@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.udemy.spring.form.Student;
 
 @Controller
-@RequestMapping("/customer")
+@RequestMapping("/customerr")
 public class customerController {
 
 	
@@ -24,16 +24,21 @@ public class customerController {
 	}
 	
 	@RequestMapping("/processForm")
-	public String ShowForm(@Valid@ModelAttribute("customer") Customer obj,BindingResult theBinding) { //Set method
+	public String ShowForm(@Valid @ModelAttribute("customer") Customer obj,BindingResult theBinding) { //Set method
 
 			//log the input data
 			System.out.println(obj.getFirstname());
 
 			if(theBinding.hasErrors())
 			{
+				System.out.println("First");
+
 				return "customer-form";
 			}
 			else {
+
+				System.out.println("2nd");
+
 				return "customer";
 			}
 		}
