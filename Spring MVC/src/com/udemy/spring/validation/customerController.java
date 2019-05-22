@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.udemy.spring.form.Student;
 
 @Controller
-@RequestMapping("/customerr")
+@RequestMapping("/customer")
 public class customerController {
 
 	
@@ -34,11 +34,13 @@ public class customerController {
 				System.out.println("First");
 
 				return "customer-form";
+			
+				
 			}
 			else {
 
 				System.out.println("2nd");
-
+				
 				return "customer";
 			}
 		}
