@@ -23,10 +23,14 @@
   <form:options items="${student.countryOptions}"/>
   
   </form:select>
-  
-  
+  <br>
+  Favourite Language: 
+   C <form:radiobutton path="lang" value="C"/>
+  Java <form:radiobutton path="lang" value="Java"/>
+  JavaScript <form:radiobutton path="lang" value="Javascript"/>
   <input type="submit" value="Submit"/>
 </form:form>
+<br>
 
 </body>
 </html>

@@ -12,5 +12,7 @@
 
 <h2>Country : ${student.country}</h2>
 
+<h2>Programming Lang. : ${student.lang}</h2>
+
 </body>
 </html>
