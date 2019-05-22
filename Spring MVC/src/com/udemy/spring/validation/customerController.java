@@ -24,14 +24,18 @@ public class customerController {
 	}
 	
 	@RequestMapping("/processForm")
-	public String ShowForm(@ModelAttribute("customer") Customer obj) { //Set method
-		
-		
-		//log the input data
-		System.out.println(obj.getFirstname());
-		return "customer";
-	
-		
-	}
-	
+	public String ShowForm(@Valid@ModelAttribute("customer") Customer obj,BindingResult theBinding) { //Set method
+
+			//log the input data
+			System.out.println(obj.getFirstname());
+
+			if(theBinding.hasErrors())
+			{
+				return "customer-form";
+			}
+			else {
+				return "customer";
+			}
+		}
+
 }
