@@ -13,6 +13,12 @@
 <title>Spring MVC</title>
 </head>
 <body>
+<br><br>
+<div class="container">
+  <div class="row"> 
+    
+   <div class="col-sm"></div>
+   <div class="col-sm">
 <h2> Welcome to Spring</h2>
 <a href="hello/showForm" >Hello World Form</a>
 <br>
@@ -24,5 +30,9 @@
 
 <a href="customer/showForm" >Customer Form</a>
 <br>
+</div>
+   <div class="col-sm"></div>
+</div>
+</div>
 </body>
 </html>

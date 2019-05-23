@@ -14,30 +14,46 @@
 </head>
 <body>
 
-<form action="processForm" method="get" >
+<div class="container">
+  <div class="row"> 
+  
+   <div class="col-sm">
+   <br>
+   
+<form action="processForm" class="form-control" method="get" >
 
-  <input type="text" name="firstname" placeholder="Enter name">
+  <input type="text" name="firstname" class="form-control"   placeholder="Enter name">
   <br>
-  <input type="submit" value="Submit">
+  <input type="submit" class="btn btn-success" value="Submit">
+</form>
+</div>
+
+
+
+
+   <div class="col-sm">
+   <br>
+<form action="processFormVersionTwo" class="form-control"   method="get">
+
+  <input type="text" class="form-control"   name="firstname" placeholder="Convert Upper">
+  <br>
+  <input type="submit" class="btn btn-success" value="Submit">
+</form>
+</div>
+
+
+   <div class="col-sm">
+   <br>
+   
+<form action="processFormVersionThree" class="form-control"   method="get">
+
+  <input type="text" name="firstname"  class="form-control"   placeholder="Convert Upper">
+  <br>
+  <input type="submit" class="btn btn-success" value="Submit">
 </form>
 
-
-
-<br>
-<form action="processFormVersionTwo" method="get">
-
-  <input type="text" name="firstname" placeholder="Convert Upper">
-  <br>
-  <input type="submit" value="Submit">
-</form>
-
-
-<br>
-<form action="processFormVersionThree" method="get">
-
-  <input type="text" name="firstname"  placeholder="Convert Upper">
-  <br>
-  <input type="submit" value="Submit">
-</form>
+</div>
+</div>
+</div>
 </body>
 </html>
