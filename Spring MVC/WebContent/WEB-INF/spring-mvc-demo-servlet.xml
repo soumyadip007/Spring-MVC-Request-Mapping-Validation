@@ -25,6 +25,9 @@
 		<property name="prefix" value="/WEB-INF/view/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	
+	<mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
 
 </beans>
 

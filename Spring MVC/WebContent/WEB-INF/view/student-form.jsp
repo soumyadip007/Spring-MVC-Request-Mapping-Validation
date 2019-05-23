@@ -3,6 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/bootstrap/css/bootstrap.min.css" type="text/css">
+	
+    <script src="${pageContext.request.contextPath}/resources/bootstrap/js/bootstrap.min.js"></script>
 <meta charset="ISO-8859-1">
 <title>Student-Form</title>
 </head>
@@ -10,7 +16,7 @@
 
 <form:form action="processForm" modelAttribute="student" >
 
-  First Name: <form:input type="text" path="firstname" placeholder="Enter name"/>
+  First Name: <form:input type="text" path="firstname"  class="form-control" placeholder="Enter name"/>
   <br>
   
    Last Name: <form:input type="text" path="lastname" placeholder="Enter name"/>
