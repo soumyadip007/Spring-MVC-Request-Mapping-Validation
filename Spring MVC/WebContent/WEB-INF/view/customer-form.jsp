@@ -24,10 +24,13 @@
    <form:errors path="lastname" cssClass="error"/>
   <br>
   
-   Last Name: <form:input path="pass" placeholder="Enter pass"/>
+   Pass: <form:input path="pass" placeholder="Enter pass"/>
    <form:errors path="pass" cssClass="error"/>
   <br>
   
+ 	Pin: <form:input path="pin" placeholder="Enter pin"/>
+   <form:errors path="pin" cssClass="error"/>
+  <br>
   <input type="submit" value="Submit"/>
 
 </form:form>
