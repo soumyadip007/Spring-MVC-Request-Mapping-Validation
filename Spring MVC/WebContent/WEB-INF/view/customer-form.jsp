@@ -24,6 +24,10 @@
    <form:errors path="lastname" cssClass="error"/>
   <br>
   
+   Last Name: <form:input path="pass" placeholder="Enter pass"/>
+   <form:errors path="pass" cssClass="error"/>
+  <br>
+  
   <input type="submit" value="Submit"/>
 
 </form:form>

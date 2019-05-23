@@ -11,6 +11,7 @@
 <body>
 
 <h2>Customer is confirmed : ${customer.firstname}  ${customer.lastname}</h2>
+<h2>Pass : ${customer.pass} </h2>
 
 </body>
 </html>
