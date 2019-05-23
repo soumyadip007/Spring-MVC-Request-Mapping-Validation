@@ -5,6 +5,11 @@
 <head>
 
 
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/bootstrap/css/bootstrap.min.css" type="text/css">
+	
+    <script src="${pageContext.request.contextPath}/resources/bootstrap/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	
