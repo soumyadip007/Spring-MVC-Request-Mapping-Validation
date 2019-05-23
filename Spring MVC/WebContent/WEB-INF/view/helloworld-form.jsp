@@ -37,7 +37,7 @@
 
   <input type="text" class="form-control"   name="firstname" placeholder="Convert Upper">
   <br>
-  <input type="submit" class="btn btn-success" value="Submit">
+  <input type="submit" class="btn btn-primary" value="Submit">
 </form>
 </div>
 
