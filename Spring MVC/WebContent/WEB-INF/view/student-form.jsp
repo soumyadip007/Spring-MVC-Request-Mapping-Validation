@@ -13,16 +13,20 @@
 <title>Student-Form</title>
 </head>
 <body>
-
+<br>
+<div class="container">
+  <div class="row"> 
+   <div class="col-sm">
+   
 <form:form action="processForm" class="form-control" modelAttribute="student" >
 
-  First Name: <form:input type="text" path="firstname"  class="form-control" placeholder="Enter name"/>
+ <b> First Name:</b> <form:input type="text" path="firstname"  class="form-control" placeholder="Enter name"/>
   <br>
   
-   Last Name: <form:input type="text" path="lastname"  class="form-control"  placeholder="Enter name"/>
+ <b>  Last Name: </b><form:input type="text" path="lastname"  class="form-control"  placeholder="Enter name"/>
   <br>
   
-  
+ <b> Country:</b>
   <form:select class="form-control" path="country">
   <form:option value="india" label="India JSP"/>
   <form:option value="australia" label="Australia JSP"/>
@@ -32,19 +36,24 @@
   <br>
   
   
-  Favourite Language: 
+ <b> Favourite Language: </b><br>
    C <form:radiobutton  class="form-control"  path="lang" value="C"/>
   Java <form:radiobutton  class="form-control"  path="lang" value="Java"/>
   JavaScript <form:radiobutton  class="form-control"  path="lang" value="Javascript"/>
 <br>
 
 
-Favourite OS: 
+<b>Favourite OS: </b><br>
   Windows <form:checkbox  class="form-control"  path="os" value="Windows"/>
   Linux <form:checkbox  class="form-control"  path="os" value="Linux"/>
   Mac <form:checkbox  class="form-control"  path="os" value="Mac"/>
   <input type="submit"  class="btn btn-success" value="Submit"/>
 </form:form>
 <br>
+</div>
+<div class="col-sm"></div>
+
+</div>
+</div>
 </body>
 </html>
