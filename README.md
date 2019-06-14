@@ -2,7 +2,6 @@
 A Spring MVC is a Java framework which is used to build web applications. It follows the Model-View-Controller design pattern.A Spring MVC provides an elegant solution to use MVC in spring framework by the help of DispatcherServlet.
 @Annotations
 
-# Spring
 
 [![Build Status](https://travis-ci.org/rails/spring.svg?branch=master)](https://travis-ci.org/rails/spring)
 [![Gem Version](https://badge.fury.io/rb/spring.svg)](http://badge.fury.io/rb/spring)
