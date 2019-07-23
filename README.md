@@ -1,5 +1,6 @@
 # Spring-MVC-Request-Mapping-Validation
 A Spring MVC is a Java framework which is used to build web applications. It follows the Model-View-Controller design pattern.A Spring MVC provides an elegant solution to use MVC in spring framework by the help of DispatcherServlet.
+
 @Annotations
 
 
@@ -111,19 +112,6 @@ The next run is faster:
 $ time bin/rake test test/controllers/posts_controller_test.rb
 Running via Spring preloader in process 8352
 Run options:
-
-# Running tests:
-
-.......
-
-Finished tests in 0.176896s, 39.5714 tests/s, 56.5305 assertions/s.
-
-7 tests, 10 assertions, 0 failures, 0 errors, 0 skips
-
-real    0m0.610s
-user    0m0.276s
-sys     0m0.059s
-```
 
 If we edit any of the application files, or test files, the changes will
 be picked up on the next run without the background process having to
